@@ -17,7 +17,7 @@ namespace PublisherSample
                           });
                           cfg.ReceiveEndpoint(host, "trendyol_fault_test", e =>
                                             {
-                                                EndpointConvention.Map<Order>(e.InputAddress);
+                                                EndpointConvention.Map<Test>(e.InputAddress);
                                             });
                       });
 
